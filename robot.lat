@@ -1,3 +1,8 @@
+funcion hora()
+    retorno 2
+
+fin
+
 funcion respuesta(pregunta)
 
 elegir (pregunta)
@@ -16,7 +21,9 @@ elegir (pregunta)
     caso "hora?":    
     poner("son las 13h30")
     
-    cmd = "mplayer 13h50.mp4"
+    h = hora()
+    
+    cmd = "mplayer 19.wav"
     salida = sis.pipe(cmd)
     poner(salida)
     limpiar()
