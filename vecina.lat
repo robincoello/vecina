@@ -1,0 +1,25 @@
+// La VECIna es una vieja chismosa que hace preguntas al usuario para conocerlo
+
+// lista de preguntas
+
+
+preguntas = [
+    "como te llamas",
+    "eres hombre o mujer",
+    "cual es tu fecha de nacimiento",
+    "en que pais naciste"
+]
+
+
+i = 0
+mientras(i < lista.longitud(preguntas))
+    poner(preguntas[i])
+    respuesta = leer()
+    i++
+fin
+
+poner(preguntas[0])
+
+
+poner("Muchas gracias ")
+

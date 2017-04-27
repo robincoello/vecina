@@ -1,0 +1,45 @@
+funcion respuesta(pregunta)
+
+elegir (pregunta)
+    caso "como te llamas?":
+    poner("Mi nombre es Robinson")
+
+    caso "cual es tu nombre?":
+    poner("Mi nombre es Robinson")
+
+    caso "que edad tienes?":
+    poner("Tengo 15")
+
+    caso "que dia es?":
+    poner("Hoy es martes")
+
+    caso "hora?":    
+    poner("son las 13h30")
+    
+    cmd = "mplayer 13h50.mp4"
+    salida = sis.pipe(cmd)
+    poner(salida)
+    limpiar()
+    poner("No se, tienes otra pregunta?")
+    defecto:
+    poner("No se, tienes otra pregunta?")
+fin
+
+fin
+
+
+
+limpiar()
+poner("Bienvenido, te puedo ayudar en algo?")
+
+pregunta = cadena.minusculas(leer())
+
+mientras (pregunta != "chao" || pregunta == '')
+    respuesta(pregunta)
+    pregunta = leer()
+
+fin
+
+poner('Que tengas un lindo dia, Chao')
+
+

@@ -25,16 +25,23 @@ fin
 
 
 limpiar()
-escribir("Bienvenido, te puedo ayudar en algo?")
+//escribir("Bienvenido, te puedo ayudar en algo?")
 
-pregunta = minusculas(leer())
 
+cmd = "mplayer 13h50.mp4"
+
+salida = sis.pipe(cmd)
+
+poner(salida)
+
+//pregunta = minusculas(leer())
+/*
 mientras (pregunta != "chao" || pregunta == '')
     respuesta(pregunta)
     pregunta = leer()
 
 fin
-
+*/
 escribir('Que tengas un lindo dia, Chao')
 
 

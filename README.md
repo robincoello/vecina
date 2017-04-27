@@ -11,5 +11,12 @@ colibri bot.lat
 o en latino  
 
 ```
-latino bot.lat
+latino robot.lat
+```
+
+
+Agregamos a la vecina para que haga preguntas al usuario 
+
+```
+latino vecina.lat
 ```
