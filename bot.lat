@@ -1,0 +1,40 @@
+funcion respuesta(pregunta)
+
+elegir (pregunta)
+    caso "como te llamas?":
+    escribir("Mi nombre es Robinson")
+
+    caso "cual es tu nombre?":
+    escribir("Mi nombre es Robinson")
+
+    caso "que edad tienes?":
+    escribir("Tengo 15")
+
+    caso "que dia es?":
+    escribir("Hoy es martes")
+
+    caso "hora?":    
+    escribir("son las 13h30")
+
+    defecto:
+    escribir("No se, tienes otra pregunta?")
+fin
+
+fin
+
+
+
+limpiar()
+escribir("Bienvenido, te puedo ayudar en algo?")
+
+pregunta = minusculas(leer())
+
+mientras (pregunta != "chao" || pregunta == '')
+    respuesta(pregunta)
+    pregunta = leer()
+
+fin
+
+escribir('Que tengas un lindo dia, Chao')
+
+
