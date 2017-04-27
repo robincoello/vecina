@@ -1,5 +1,6 @@
-# Simula la charla con un un Robot
+# Es una vieja chismosa que quiere saber todo de ti
 
+ 
 Requiere Latino 0.8.11 (Colibrí)
 
 Para lanzarlo con Colibrí

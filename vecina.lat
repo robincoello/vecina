@@ -6,22 +6,30 @@
 
 
 preguntas = [
-    "como te llamas",
-    "eres hombre o mujer",
-    "cual es tu fecha de nacimiento",
-    "en que pais naciste"
+    "Como te llamas?",
+    "Eres hombre o mujer?",
+    "Cual es tu fecha de nacimiento?",
+    "En que pais naciste?"
 ]
+
+respuestas = []
 
 
 i = 0
 mientras(i < lista.longitud(preguntas))
     poner(preguntas[i])
-    respuesta = leer()
+    respuestas[i] = leer()
     i++
 fin
 
-poner(preguntas[0])
+limpiar()
+poner("---------------------")
 
+i = 0
+mientras(i < lista.longitud(preguntas))
+    poner(preguntas[i] .. " : " .. respuestas[i])        
+    i++
+fin
 
-poner("Muchas gracias ")
+poner("Muchas gracias " .. respuestas[0])
 
