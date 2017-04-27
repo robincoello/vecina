@@ -1,6 +1,8 @@
 // La VECIna es una vieja chismosa que hace preguntas al usuario para conocerlo
 
 // lista de preguntas
+// seria mejor relacionar una pregunta a una respuesta
+
 
 
 preguntas = [
